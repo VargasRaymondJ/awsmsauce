@@ -16,6 +16,7 @@ builds:
       - linux
       - windows
       - darwin
+    binary: awsmsausage
 
 archives:
   - replacements:
@@ -39,8 +40,7 @@ changelog:
       - '^test:'
 
 brews:
-  - name: awsmsausage
-    homepage: 'https://github.com/VargasRaymondJ/homebrew-jackalope-test'
+  - homepage: 'https://github.com/VargasRaymondJ/homebrew-jackalope-test'
     description: 'Example binary distribution using goreleaser and homebrew'
     folder: Formula
     commit_author:

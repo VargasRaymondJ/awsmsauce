@@ -48,3 +48,4 @@ brews:
     tap:
       owner: vargasraymondj
       name: homebrew-jackalope-test
+    install: bin.install "awsmsausage"
